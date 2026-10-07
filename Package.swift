@@ -9,7 +9,7 @@ let package = Package(
         .library(name: "HeraldAppsFlyer", targets: ["HeraldAppsFlyer"])
     ],
     dependencies: [
-        .package(url: "https://github.com/MkhytarMkhoian/herald-ios", from: "1.0.0-beta.1"),
+        .package(url: "https://github.com/MkhytarMkhoian/herald-ios", from: "1.0.0-beta.2"),
         .package(url: "https://github.com/AppsFlyerSDK/AppsFlyerFramework", from: "7.0.0"),
     ],
     targets: [
