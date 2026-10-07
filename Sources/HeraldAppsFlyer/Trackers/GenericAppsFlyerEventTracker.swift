@@ -14,6 +14,6 @@ public struct GenericAppsFlyerEventTracker: AppsFlyerEventTracker {
     }
 
     public func track() {
-        sdk.logEvent(event.name, values: appsFlyerValues(event.parameters))
+        sdk.logEvent(event.name, values: event.parameters.toAppsFlyerEventValues())
     }
 }

@@ -11,7 +11,8 @@ In Xcode, File → Add Package Dependencies, and add both packages:
 - `https://github.com/MkhytarMkhoian/herald-ios`, for `HeraldCore`;
 - `https://github.com/MkhytarMkhoian/herald-ios-appsflyer`, for `HeraldAppsFlyer`.
 
-It works with AppsFlyer 7, and needs iOS 15 or newer.
+It works with AppsFlyer 7, and needs iOS 15 or newer. All Herald for iOS
+packages share one version, so use the same one for `herald-ios`.
 
 ## Set up
 

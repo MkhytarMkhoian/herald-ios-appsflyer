@@ -22,6 +22,6 @@ public struct AdRevenueAppsFlyerEventTracker: AppsFlyerEventTracker {
             mediationNetwork: event.mediationNetwork,
             currencyIso4217Code: event.currency,
             eventRevenue: NSNumber(value: event.revenue))
-        sdk.logAdRevenue(data, additionalParameters: appsFlyerValues(event.parameters))
+        sdk.logAdRevenue(data, additionalParameters: event.parameters.toAppsFlyerEventValues())
     }
 }
