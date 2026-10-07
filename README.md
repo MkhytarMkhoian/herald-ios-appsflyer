@@ -1,5 +1,8 @@
 # Herald for AppsFlyer
 
+[![Swift versions](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FMkhytarMkhoian%2Fherald-ios-appsflyer%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/MkhytarMkhoian/herald-ios-appsflyer)
+[![Platforms](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FMkhytarMkhoian%2Fherald-ios-appsflyer%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/MkhytarMkhoian/herald-ios-appsflyer)
+
 Sends [Herald](https://github.com/MkhytarMkhoian/herald-ios) conversions, purchases, subscriptions
 and ad revenue to AppsFlyer, over the
 [AppsFlyer iOS SDK](https://github.com/AppsFlyerSDK/AppsFlyerFramework).
