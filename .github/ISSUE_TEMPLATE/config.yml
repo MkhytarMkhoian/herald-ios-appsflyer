@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://mkhytarmkhoian.github.io/herald-docs/
+    about: Guides, setup and API reference
+  - name: General iOS issues
+    url: https://github.com/MkhytarMkhoian/herald-ios/issues
+    about: Problems with Herald for iOS itself, not this adapter
